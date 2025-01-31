@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+  }
+  
+  h1 {
+    color: #2f4f4f;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .choice-button {
+    height: 100px;
+    width: 100px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .choice-button:hover {
+    transform: scale(1.1);
+    background-color: #fdfdfd;
+  }
+  
+  .choice-image {
+    height: 60px;
+    width: 60px;
+  }
+  
+  #user-move, #computer-move, #result, #score {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4682b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #5a9bd4;
+  }
